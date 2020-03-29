@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The One Lyrics Auto-Scroll</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        html {
+            font-family: 'Noto Sans HK', sans-serif;
+            background-color: rgb(14, 13, 13);
+            background-attachment: fixed;
+        }
+
+        .faded-text {
+            width: 50%;
+            font-size: 28px;
+            z-index: 5;
+            color:white;
+            text-align: center;
+            /*淡入当前文本颜色的背景渐变*/
+            background-image: linear-gradient(transparent 10%, currentColor 30%, currentColor 70%, transparent 90%);
+            /*剪切到文本,把渐变从背景填充到文字当中*/
+            -webkit-background-clip: text;
+            background-clip: text;
+            /*将背景固定在viewport上 */
+            background-attachment: fixed;
+            /*将文本设置为透明，以便通过显示淡入淡出的背景*/
+        }
+
+        .faded-text p {
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="faded-text">
+ 
+            <center>
+            <audio controls="controls" autoplay="autoplay">
+              <source src="music/The One.ogg" type="audio/ogg" />
+              <source src="music/The One.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+            </audio>
+            </center>
+
+<p>	The storm is on the horizon			</p>
+<p>	I'm standing here alone			</p>
+<p>	Got a pistol on my hip			</p>
+<p>	And it's gonna be some *			</p>
+<p>	If you want it then bring it on			</p>
+<p>	See I'm a mother*in' soldier			</p>
+<p>	And I'mma be here till it's done			</p>
+<p>	And when they asking who I'm is, *			</p>
+<p>	You just tell them that I'm the one (One, one, one)			</p>
+<p>	Tell them that I'm the one (One, one, one)			</p>
+<p>	Tell them that I'm the one			</p>
+<p>	I'm the one, baby			</p>
+<p>	Yeah, I'm the one, baby			</p>
+<p>	Since God gave his only begotten son, baby			</p>
+<p>	It's hard preachin' the gospel to the slums lately			</p>
+<p>	So I had to put the church on the drums, baby			</p>
+<p>	You on a run, baby			</p>
+<p>	You on a run, baby			</p>
+<p>	You think you free but you a slave to the funds, baby			</p>
+<p>	You think you me, but you ain't me, what you done lately?			</p>
+<p>	Mm hm that's cool but I been runnin' on the sun, baby			</p>
+<p>	We on a galaxy the haters cannot visit			</p>
+<p>	That's my reality so get off my Scott Disick			</p>
+<p>	If you ever held a title belt you would know how Michael felt			</p>
+<p>	Tyson, Jackson, Jordan, Michael Phelps			</p>
+<p>	Yeah, had to take it to another realm			</p>
+<p>	'Cause everything around me got me underwhelmed			</p>
+<p>	Best way to describe my position is at the helm			</p>
+<p>	Best way to describe my new whip, yeeuum!			</p>
+<p>	The storm is on the horizon			</p>
+<p>	I'm standing here alone			</p>
+<p>	Got a pistol on my hip			</p>
+<p>	And it's gonna be some *			</p>
+<p>	If you want it then bring it on			</p>
+<p>	See I'm a mother*in' soldier			</p>
+<p>	And I'mma be here 'til it's done			</p>
+<p>	And when they asking who I'm is, *			</p>
+<p>	You just tell them that I'm the one (One, one, one)			</p>
+<p>	Tell them that I'm the one (One, one, one)			</p>
+<p>	Tell them that I'm the one			</p>
+<p>	I told Detroit I'ma *in' get it			</p>
+<p>	I told my brother we'll be *in' winnin'			</p>
+<p>	Ye told me I'm the man for the job			</p>
+<p>	So I told my mom, call her's up and tell 'em that she quittin'			</p>
+<p>	Started off in that Chevrolet,			</p>
+<p>	But it's Ferrari's I gotta drive I'm on HBO with my entourage,			</p>
+<p>	I'm 5'9' * a 9 to 5 I need a hundred million no compromise			</p>
+<p>	I'm a double X L *,			</p>
+<p>	Magazine and condom size see what I seen and be traumatized			</p>
+<p>	I don't wait, I marinate, variate erryday			</p>
+<p>	Every state, sold out, * around and need a barricade			</p>
+<p>	My weed loud I need a hearing aid			</p>
+<p>	Livin' life behind a pair of shades			</p>
+<p>	I be a billionaire if I could get a dollar			</p>
+<p>	For all the bull* that I hear a day, I did it			</p>
+<p>	The storm is on the horizon			</p>
+<p>	I'm standing here alone			</p>
+<p>	Got a pistol on my hip			</p>
+<p>	And it's gonna be some *			</p>
+<p>	If you want it then bring it on			</p>
+<p>	See I'm a mother*in' soldier			</p>
+<p>	And I'mma be here till it's done			</p>
+<p>	And when they asking who I'm is, *			</p>
+<p>	You just tell them that I'm the one (One, one, one)			</p>
+<p>	Tell them that I'm the one (One, one, one)			</p>
+<p>	Tell them that I'm the one			</p>
+<p>	Treat the back seat like a sofa bed			</p>
+<p>	Break bread with my *s, call it profit share			</p>
+<p>	This some good *, but it get better			</p>
+<p>	And yeah my * cold, * thin sweater			</p>
+<p>	Like my verse suede and the beat leather			</p>
+<p>	Just tryin' to stay above sea level			</p>
+<p>	When my * went to jail, I said, "Free Gucci"			</p>
+<p>	I done bought so much *, I should get free Gucci			</p>
+<p>	Bought my baby momma anaconda bags			</p>
+<p>	I shouldn't have bought it all			</p>
+<p>	I should've went and cut the grass			</p>
+<p>	Snake ass *s in my *in' face			</p>
+<p>	Bring your girl here * so I could * her face			</p>
+<p>	Yeah I run this place, this is cashmere swag			</p>
+<p>	*s treadmillin' goin' nowhere fast			</p>
+<p>	Sittin' courtside at the Hawks game			</p>
+<p>	Louis on, I could trip a *in' ball player			</p>
+<p>	* yeah, awesome yeah I lost some, of my mind			</p>
+<p>	And then I found peace it was really kind,			</p>
+<p>	Of awesome it's possible, goddamn right			</p>
+<p>	I've been honest the whole time			</p>
+<p>	* yeah, awesome yeah I lost some, of my mind			</p>
+<p>	And then I found peace it was really kind,			</p>
+<p>	Of awesome it's possible, goddamn right			</p>
+<p>	I've been honest the whole time			</p>
+
+    </div>
+</body>
+<script>
+
+</script>
+
+</html>
